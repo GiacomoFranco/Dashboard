@@ -1,0 +1,128 @@
+[
+  {
+    "year": 2015,
+    "emissions": 5.2,
+    "emission_type": "CO2",
+    "country": "United Kingdom",
+    "activity": "Air travel"
+  },
+  {
+    "year": 2016,
+    "emissions": 2.9,
+    "emission_type": "N2O",
+    "country": "United Kingdom",
+    "activity": "Waste"
+  },
+  {
+    "year": 2017,
+    "emissions": 4.7,
+    "emission_type": "CH4",
+    "country": "Germany",
+    "activity": "Agriculture"
+  },
+  {
+    "year": 2018,
+    "emissions": 6.1,
+    "emission_type": "CO2",
+    "country": "Germany",
+    "activity": "Manufacturing"
+  },
+  {
+    "year": 2019,
+    "emissions": 3.4,
+    "emission_type": "F-gases",
+    "country": "France",
+    "activity": "Refrigeration"
+  },
+  {
+    "year": 2020,
+    "emissions": 2.1,
+    "emission_type": "N2O",
+    "country": "France",
+    "activity": "Wastewater treatment"
+  },
+  {
+    "year": 2021,
+    "emissions": 7.8,
+    "emission_type": "CO2",
+    "country": "United States",
+    "activity": "Road transport"
+  },
+  {
+    "year": 2022,
+    "emissions": 5.5,
+    "emission_type": "CH4",
+    "country": "United States",
+    "activity": "Oil & gas extraction"
+  },
+  {
+    "year": 2018,
+    "emissions": 1.9,
+    "emission_type": "N2O",
+    "country": "Canada",
+    "activity": "Chemical processes"
+  },
+  {
+    "year": 2019,
+    "emissions": 4.2,
+    "emission_type": "CO2",
+    "country": "Canada",
+    "activity": "Electricity generation"
+  },
+  {
+    "year": 2017,
+    "emissions": 3.1,
+    "emission_type": "CH4",
+    "country": "Brazil",
+    "activity": "Livestock"
+  },
+  {
+    "year": 2020,
+    "emissions": 2.7,
+    "emission_type": "N2O",
+    "country": "Brazil",
+    "activity": "Agriculture"
+  },
+  {
+    "year": 2021,
+    "emissions": 6.4,
+    "emission_type": "CO2",
+    "country": "India",
+    "activity": "Coal combustion"
+  },
+  {
+    "year": 2022,
+    "emissions": 3.8,
+    "emission_type": "CH4",
+    "country": "India",
+    "activity": "Waste management"
+  },
+  {
+    "year": 2016,
+    "emissions": 1.4,
+    "emission_type": "F-gases",
+    "country": "Japan",
+    "activity": "Industrial equipment"
+  },
+  {
+    "year": 2018,
+    "emissions": 4.3,
+    "emission_type": "CO2",
+    "country": "Japan",
+    "activity": "Public transportation"
+  },
+  {
+    "year": 2020,
+    "emissions": 2.0,
+    "emission_type": "N2O",
+    "country": "Australia",
+    "activity": "Fertilizers"
+  },
+  {
+    "year": 2021,
+    "emissions": 5.6,
+    "emission_type": "CO2",
+    "country": "Australia",
+    "activity": "Mining"
+  }
+]
