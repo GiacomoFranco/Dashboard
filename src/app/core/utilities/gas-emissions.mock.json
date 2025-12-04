@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "year": 2015,
     "emissions": 5.2,
     "emission_type": "CO2",
@@ -7,6 +8,7 @@
     "activity": "Air travel"
   },
   {
+    "id": 2,
     "year": 2016,
     "emissions": 2.9,
     "emission_type": "N2O",
@@ -14,6 +16,7 @@
     "activity": "Waste"
   },
   {
+    "id": 3,
     "year": 2017,
     "emissions": 4.7,
     "emission_type": "CH4",
@@ -21,6 +24,7 @@
     "activity": "Agriculture"
   },
   {
+    "id": 4,
     "year": 2018,
     "emissions": 6.1,
     "emission_type": "CO2",
@@ -28,6 +32,7 @@
     "activity": "Manufacturing"
   },
   {
+    "id": 5,
     "year": 2019,
     "emissions": 3.4,
     "emission_type": "F-gases",
@@ -35,6 +40,7 @@
     "activity": "Refrigeration"
   },
   {
+    "id": 6,
     "year": 2020,
     "emissions": 2.1,
     "emission_type": "N2O",
@@ -42,6 +48,7 @@
     "activity": "Wastewater treatment"
   },
   {
+    "id": 7,
     "year": 2021,
     "emissions": 7.8,
     "emission_type": "CO2",
@@ -49,6 +56,7 @@
     "activity": "Road transport"
   },
   {
+    "id": 8,
     "year": 2022,
     "emissions": 5.5,
     "emission_type": "CH4",
@@ -56,6 +64,7 @@
     "activity": "Oil & gas extraction"
   },
   {
+    "id": 9,
     "year": 2018,
     "emissions": 1.9,
     "emission_type": "N2O",
@@ -63,6 +72,7 @@
     "activity": "Chemical processes"
   },
   {
+    "id": 10,
     "year": 2019,
     "emissions": 4.2,
     "emission_type": "CO2",
@@ -70,6 +80,7 @@
     "activity": "Electricity generation"
   },
   {
+    "id": 11,
     "year": 2017,
     "emissions": 3.1,
     "emission_type": "CH4",
@@ -77,6 +88,7 @@
     "activity": "Livestock"
   },
   {
+    "id": 12,
     "year": 2020,
     "emissions": 2.7,
     "emission_type": "N2O",
@@ -84,6 +96,7 @@
     "activity": "Agriculture"
   },
   {
+    "id": 13,
     "year": 2021,
     "emissions": 6.4,
     "emission_type": "CO2",
@@ -91,6 +104,7 @@
     "activity": "Coal combustion"
   },
   {
+    "id": 14,
     "year": 2022,
     "emissions": 3.8,
     "emission_type": "CH4",
@@ -98,6 +112,7 @@
     "activity": "Waste management"
   },
   {
+    "id": 15,
     "year": 2016,
     "emissions": 1.4,
     "emission_type": "F-gases",
@@ -105,6 +120,7 @@
     "activity": "Industrial equipment"
   },
   {
+    "id": 16,
     "year": 2018,
     "emissions": 4.3,
     "emission_type": "CO2",
@@ -112,6 +128,7 @@
     "activity": "Public transportation"
   },
   {
+    "id": 17,
     "year": 2020,
     "emissions": 2.0,
     "emission_type": "N2O",
@@ -119,6 +136,7 @@
     "activity": "Fertilizers"
   },
   {
+    "id": 18,
     "year": 2021,
     "emissions": 5.6,
     "emission_type": "CO2",

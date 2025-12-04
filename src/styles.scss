@@ -1,7 +1,7 @@
 
 
 :root {
-  --main-black: #151515;
+  --main-black: #1A1B20;
   --darker-black: #000000;
   --panel-black: #09090B;
   --outline-panel: #474747;
@@ -45,13 +45,17 @@ app-app {
   flex-direction: column;
 }
 
+select {
+  cursor: pointer;
+}
+
 .card {
   border-radius: var(--panel-radius);
-  padding: 2rem;
+  padding: 3rem;
 }
 
 .outer-card{
-  background-color: var(--panel-black);
+  background-color: var(--darker-black);
 }
 
 .inner-card {
@@ -60,8 +64,8 @@ app-app {
 
 .card-title {
   color: var(--main-white);
-  font-size: 2.5rem;
-  font-weight: 600;
+  font-size: 2rem;
+  font-weight: 400;
   margin-bottom: 2.5rem;
 }
 
@@ -123,23 +127,22 @@ app-app {
 
 /* CUSTOM SCROLLBAR */
 
-*::-webkit-scrollbar {
-  width: .5rem;
-  height: .5rem;
-  padding-left: .5rem
-}
+// *::-webkit-scrollbar {
+//   width: .5rem;
+//   height: .5rem;
+//   padding-left: .5rem
+// }
 
-*::-webkit-scrollbar-track {
-  box-shadow: 0 0 .5rem 0 #151804 inset;
-  border-radius: 20px;
-}
+// *::-webkit-scrollbar-track {
+//   box-shadow: 0 0 .5rem 0 #151804 inset;
+//   border-radius: 20px;
+// }
 
-*::-webkit-scrollbar-thumb {
-  background-color: #6f8000;
-  border-radius: 2rem;
-}
+// *::-webkit-scrollbar-thumb {
+//   background-color: #6f8000;
+//   border-radius: 2rem;
+// }
 
-*::-webkit-scrollbar-button {
-  height: 0rem;
-  width: 0rem;
-}
+// *::-webkit-scrollbar-button {
+//   height: 0rem;
+//   width: 3

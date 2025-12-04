@@ -1,0 +1,11 @@
+:host {
+  display: flex;
+  min-height: 100vh;
+
+  main {
+    padding: 3rem;
+    background-color: var(--main-black);
+    flex: 1 1 auto;
+    overflow-x: auto;
+  }
+}

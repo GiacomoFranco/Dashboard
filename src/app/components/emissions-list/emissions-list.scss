@@ -1,0 +1,77 @@
+.emissions-list {
+  width: 100%;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+
+  table {
+    width: 100%;
+    overflow-x: auto;
+    border-collapse: collapse;
+
+    th {
+      cursor: pointer;
+      font-weight: 600;
+      color: var(--main-white);
+    }
+
+    tr {
+      height: 2rem;
+      border-bottom: 1px solid #ffffff14;
+    }
+
+    th,
+    td {
+      width: 20%;
+      min-width: 150px;
+      text-align: start;
+      padding: 1rem 1.5rem;
+    }
+
+    td {
+      color: var(--secondary-white);
+    }
+
+    th:nth-child(5),
+    td:nth-child(5) {
+      width: 35%;
+      min-width: 250px;
+    }
+  }
+}
+
+.filter-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+
+  .form-group {
+    display: flex;
+    flex-basis: 15%;
+    gap: 1rem;
+    align-items: center;
+    flex-grow: 1;
+
+    label {
+      font-weight: 600;
+    }
+
+    select,
+    input[type="text"] {
+      padding: 0.5rem;
+      border-radius: 1rem;
+      border: 1px solid var(--outline-panel);
+      background-color: var(--main-black);
+      color: var(--main-white);
+      flex-grow: 1;
+      height: 3.5rem;
+      padding: 0 1rem;
+      font-size: 1.5rem;
+    }
+  }
+
+  .search {
+    flex-basis: 35%;
+  }
+}
