@@ -6,18 +6,15 @@
     "outDir": "./out-tsc/app",
     "types": [],
     "baseUrl": "src",
-     "paths": {
+    "paths": {
       "@utilities/*": ["app/core/utilities/*"],
       "@constants/*": ["app/core/constants/*"],
+      "@models/*": ["app/core/models/*"],
       "@components/*": ["app/components/*"],
       "@services/*": ["app/services/*"],
-      "@views/*": ["app/views/*"],
+      "@views/*": ["app/views/*"]
     }
   },
-  "include": [
-    "src/**/*.ts"
-  ],
-  "exclude": [
-    "src/**/*.spec.ts"
-  ]
+  "include": ["src/**/*.ts"],
+  "exclude": ["src/**/*.spec.ts"]
 }

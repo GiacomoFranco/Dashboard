@@ -2,35 +2,38 @@
     <h3 class="card-title">Gas emissions records</h3>
     <form class="filter-form">
         <div class="form-group">
-            <label for="emission-type-filter">Type: </label>
-            <select id="emission-type-filter" #emissionType (change)="RecordsService.selectEmissionType(emissionType.value)">
-                @for (emissionType of RecordsService.selectableEmissionTypes; track $index) {
-                    <option value="{{ emissionType.value }}">{{ emissionType.label }}</option>
+            <label for="year-filter">Year: </label>
+            <select id="year-filter" #year (change)="FilteredRecordsService.slectYear(year.value)">
+              <option value="">All</option>
+                @for (year of FilteredRecordsService.selectableYears; track $index) {
+                <option value="{{ year }}">{{ year }}</option>
                 }
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="emission-type-filter">Type: </label>
+            <select id="emission-type-filter" #emissionType (change)="FilteredRecordsService.selectEmissionType(emissionType.value)">
+              <option value="">All</option>
+              @for (emissionType of FilteredRecordsService.selectableEmissionTypes; track $index) {
+                <option value="{{ emissionType.value }}">{{ emissionType.label }}</option>
+              }
             </select>
         </div>
 
         <div class="form-group">
             <label for="country-filter">Country: </label>
-            <select id="country-filter" #emissionCountry (change)="RecordsService.selectCountry(emissionCountry.value)">
-                @for (country of RecordsService.selectableCountries; track $index) {
+            <select id="country-filter" #emissionCountry (change)="FilteredRecordsService.selectCountry(emissionCountry.value)">
+                <option value="">All</option>
+                @for (country of FilteredRecordsService.selectableCountries; track $index) {
                 <option value="{{ country.value }}">{{ country.label }}</option>
-                }
-            </select>
-        </div>
-
-        <div class="form-group">
-            <label for="year-filter">Year: </label>
-            <select id="year-filter" #year (change)="RecordsService.slectYear(year.value)">
-                @for (year of RecordsService.selectableYears; track $index) {
-                <option value="{{ typeof year !== 'number' ? year.value : year }}">{{ typeof year !== 'number' ? year.label : year }}</option>
                 }
             </select>
         </div>
 
         <div class="form-group search">
             <label for="activity-search">Activity: </label>
-            <input type="text" id="activity-search" #activitySearch (keyup)="RecordsService.filterByActivity(activitySearch.value)">
+            <input type="text" id="activity-search" #activitySearch (keyup)="FilteredRecordsService.filterByActivity(activitySearch.value)">
         </div>
 
     </form>

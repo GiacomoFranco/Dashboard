@@ -1,5 +1,6 @@
 import { Component, computed, inject } from '@angular/core';
-import { EmissionRecords } from '@services/emission-records';
+import { FilteredRecords } from '@services/filtered-records';
+import { TEmissionRecords } from '@models/emission-record.type';
 
 @Component({
   selector: 'app-emissions-list',
@@ -8,6 +9,6 @@ import { EmissionRecords } from '@services/emission-records';
   styleUrl: './emissions-list.scss',
 })
 export class EmissionsList {
-  RecordsService = inject(EmissionRecords);
-  records = computed(() => this.RecordsService.filteredRecords());
+  FilteredRecordsService = inject(FilteredRecords);
+  records = computed<TEmissionRecords>(() => this.FilteredRecordsService.filteredRecords());
 }

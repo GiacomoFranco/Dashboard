@@ -1,7 +1,15 @@
-export const EMISSION_YEARS = [{value: '', label: 'All'}, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022];
+export const EMISSION_YEARS = [
+  2015,
+  2016,
+  2017,
+  2018,
+  2019,
+  2020,
+  2021,
+  2022,
+];
 
 export const EMISSION_TYPES = [
-  { value: '', label: 'All' },
   { value: 'co2', label: 'CO2' },
   { value: 'n2o', label: 'N20' },
   { value: 'ch4', label: 'CH4' },
@@ -9,7 +17,6 @@ export const EMISSION_TYPES = [
 ];
 
 export const COUNTRIES = [
-  { value: '', label: 'All' },
   { value: 'united-kingdom', label: 'United Kingdom' },
   { value: 'germany', label: 'Germany' },
   { value: 'france', label: 'France' },

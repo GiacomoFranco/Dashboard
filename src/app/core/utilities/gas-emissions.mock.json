@@ -50,10 +50,10 @@
   {
     "id": 7,
     "year": 2021,
-    "emissions": 7.8,
-    "emission_type": "CO2",
+    "emissions": 3.4,
+    "emission_type": "F-gases",
     "country": "United States",
-    "activity": "Road transport"
+    "activity": "Refrigeration"
   },
   {
     "id": 8,
@@ -142,5 +142,117 @@
     "emission_type": "CO2",
     "country": "Australia",
     "activity": "Mining"
+  },
+  {
+    "id":19,
+    "year": 2011,
+    "emissions": 6.8,
+    "emission_type": "CO2",
+    "country": "United States",
+    "activity": "Road transport"
+  },
+  {
+    "id":20,
+    "year": 2012,
+    "emissions": 6.5,
+    "emission_type": "CO2",
+    "country": "United States",
+    "activity": "Electricity generation"
+  },
+  {
+    "id":21,
+    "year": 2013,
+    "emissions": 6.7,
+    "emission_type": "CO2",
+    "country": "United States",
+    "activity": "Manufacturing"
+  },
+  {
+    "id":22,
+    "year": 2014,
+    "emissions": 6.4,
+    "emission_type": "CO2",
+    "country": "United States",
+    "activity": "Aviation"
+  },
+  {
+    "id":23,
+    "year": 2015,
+    "emissions": 6.2,
+    "emission_type": "CO2",
+    "country": "United States",
+    "activity": "Residential heating"
+  },
+  {
+    "id":24,
+    "year": 2016,
+    "emissions": 6.0,
+    "emission_type": "CO2",
+    "country": "United States",
+    "activity": "Commercial buildings"
+  },
+  {
+    "id":25,
+    "year": 2017,
+    "emissions": 6.1,
+    "emission_type": "CO2",
+    "country": "United States",
+    "activity": "Oil & gas extraction"
+  },
+  {
+    "id":26,
+    "year": 2018,
+    "emissions": 6.5,
+    "emission_type": "CO2",
+    "country": "United States",
+    "activity": "Agriculture machinery"
+  },
+  {
+    "id":27,
+    "year": 2019,
+    "emissions": 6.3,
+    "emission_type": "CO2",
+    "country": "United States",
+    "activity": "Industrial processes"
+  },
+  {
+    "id":28,
+    "year": 2020,
+    "emissions": 5.5,
+    "emission_type": "CO2",
+    "country": "United States",
+    "activity": "Transport (pandemic impact)"
+  },
+  {
+    "id":29,
+    "year": 2021,
+    "emissions": 6.1,
+    "emission_type": "CO2",
+    "country": "United States",
+    "activity": "Road transport"
+  },
+  {
+    "id":30,
+    "year": 2022,
+    "emissions": 6.4,
+    "emission_type": "CO2",
+    "country": "United States",
+    "activity": "Electricity generation"
+  },
+  {
+    "id":31,
+    "year": 2023,
+    "emissions": 6.3,
+    "emission_type": "CO2",
+    "country": "United States",
+    "activity": "Manufacturing"
+  },
+  {
+    "id":32,
+    "year": 2024,
+    "emissions": 6.0,
+    "emission_type": "CO2",
+    "country": "United States",
+    "activity": "Aviation"
   }
 ]
