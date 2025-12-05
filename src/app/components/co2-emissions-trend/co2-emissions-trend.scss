@@ -1,3 +1,9 @@
-.chart-container {
-  height: 39rem;
+:host {
+  display: flex;
+  flex: 1 1 0;
+  width: 100%;
+
+  .chart-container {
+    height: 30rem;
+  }
 }

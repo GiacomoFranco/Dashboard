@@ -32,6 +32,7 @@ export class Co2EmissionsTrend {
             tension: 0,
             pointRadius: 0,
             borderWidth: 3,
+            pointHoverRadius: 10,
           },
         ],
       },

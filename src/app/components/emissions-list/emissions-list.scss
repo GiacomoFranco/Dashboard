@@ -1,7 +1,11 @@
+:host {
+  width: 100%;
+}
+
 .emissions-list {
   width: 100%;
-  overflow-x: auto;
   padding-bottom: 1rem;
+  overflow-x: auto;
 
   table {
     width: 100%;

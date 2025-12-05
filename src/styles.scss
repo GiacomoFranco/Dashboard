@@ -33,7 +33,7 @@ body {
   line-height: 1.6;
   color: var(--main-white);
   background-color: var(--darker-black);
-  width: 100vw;
+  max-width: 100vw;
   min-height: 100vh;
   overflow-x: hidden;
 }
@@ -52,6 +52,7 @@ select {
 .card {
   border-radius: var(--panel-radius);
   padding: 3rem;
+  width: 100%;
 }
 
 .outer-card{
