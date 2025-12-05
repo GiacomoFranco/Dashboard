@@ -12,7 +12,6 @@ export class Co2EmissionsTrend {
   data = inject(Co2Emissions).co2EmissionsData;
 
   canvas = viewChild<ElementRef<HTMLCanvasElement>>('canvas');
-  chart = signal<Chart | undefined>(undefined);
 
   generateChart() {
     const ctx = this.canvas()!.nativeElement.getContext('2d')!;

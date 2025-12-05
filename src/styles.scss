@@ -69,6 +69,17 @@ select {
   margin-bottom: 2.5rem;
 }
 
+.chart-container {
+  width: 100%;
+  position: relative;
+
+  canvas {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+
 @font-face {
   font-family: 'GalanoGrotesque';
   src: url('/fonts/GalanoGrotesque/GalanoGrotesqueRegular.otf') format('opentype');

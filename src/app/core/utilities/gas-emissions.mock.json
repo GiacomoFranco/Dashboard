@@ -144,7 +144,7 @@
     "activity": "Mining"
   },
   {
-    "id":19,
+    "id": 19,
     "year": 2011,
     "emissions": 6.8,
     "emission_type": "CO2",
@@ -152,7 +152,7 @@
     "activity": "Road transport"
   },
   {
-    "id":20,
+    "id": 20,
     "year": 2012,
     "emissions": 6.5,
     "emission_type": "CO2",
@@ -160,7 +160,7 @@
     "activity": "Electricity generation"
   },
   {
-    "id":21,
+    "id": 21,
     "year": 2013,
     "emissions": 6.7,
     "emission_type": "CO2",
@@ -168,7 +168,7 @@
     "activity": "Manufacturing"
   },
   {
-    "id":22,
+    "id": 22,
     "year": 2014,
     "emissions": 6.4,
     "emission_type": "CO2",
@@ -176,7 +176,7 @@
     "activity": "Aviation"
   },
   {
-    "id":23,
+    "id": 23,
     "year": 2015,
     "emissions": 6.2,
     "emission_type": "CO2",
@@ -184,7 +184,7 @@
     "activity": "Residential heating"
   },
   {
-    "id":24,
+    "id": 24,
     "year": 2016,
     "emissions": 6.0,
     "emission_type": "CO2",
@@ -192,7 +192,7 @@
     "activity": "Commercial buildings"
   },
   {
-    "id":25,
+    "id": 25,
     "year": 2017,
     "emissions": 6.1,
     "emission_type": "CO2",
@@ -200,7 +200,7 @@
     "activity": "Oil & gas extraction"
   },
   {
-    "id":26,
+    "id": 26,
     "year": 2018,
     "emissions": 6.5,
     "emission_type": "CO2",
@@ -208,7 +208,7 @@
     "activity": "Agriculture machinery"
   },
   {
-    "id":27,
+    "id": 27,
     "year": 2019,
     "emissions": 6.3,
     "emission_type": "CO2",
@@ -216,7 +216,7 @@
     "activity": "Industrial processes"
   },
   {
-    "id":28,
+    "id": 28,
     "year": 2020,
     "emissions": 5.5,
     "emission_type": "CO2",
@@ -224,7 +224,7 @@
     "activity": "Transport (pandemic impact)"
   },
   {
-    "id":29,
+    "id": 29,
     "year": 2021,
     "emissions": 6.1,
     "emission_type": "CO2",
@@ -232,7 +232,7 @@
     "activity": "Road transport"
   },
   {
-    "id":30,
+    "id": 30,
     "year": 2022,
     "emissions": 6.4,
     "emission_type": "CO2",
@@ -240,7 +240,7 @@
     "activity": "Electricity generation"
   },
   {
-    "id":31,
+    "id": 31,
     "year": 2023,
     "emissions": 6.3,
     "emission_type": "CO2",
@@ -248,11 +248,147 @@
     "activity": "Manufacturing"
   },
   {
-    "id":32,
+    "id": 32,
     "year": 2024,
+    "emissions": 5.0,
+    "emission_type": "CO2",
+    "country": "United States",
+    "activity": "Aviation"
+  },
+  {
+    "id": 33,
+    "year": 2025,
     "emissions": 6.0,
     "emission_type": "CO2",
     "country": "United States",
     "activity": "Aviation"
+  },
+  {
+    "id": 34,
+    "year": 2024,
+    "emissions": 4.8,
+    "emission_type": "CO2",
+    "country": "United Kingdom",
+    "activity": "Public transport modernization"
+  },
+  {
+    "id": 35,
+    "year": 2025,
+    "emissions": 5.1,
+    "emission_type": "CO2",
+    "country": "United Kingdom",
+    "activity": "Industrial energy use"
+  },
+  {
+    "id": 36,
+    "year": 2024,
+    "emissions": 6.2,
+    "emission_type": "CO2",
+    "country": "Germany",
+    "activity": "Automotive manufacturing"
+  },
+  {
+    "id": 37,
+    "year": 2025,
+    "emissions": 6.5,
+    "emission_type": "CO2",
+    "country": "Germany",
+    "activity": "Heavy industry operations"
+  },
+  {
+    "id": 38,
+    "year": 2024,
+    "emissions": 5,
+    "emission_type": "CO2",
+    "country": "France",
+    "activity": "Urban heating systems"
+  },
+  {
+    "id": 39,
+    "year": 2025,
+    "emissions": 7,
+    "emission_type": "CO2",
+    "country": "France",
+    "activity": "Electricity generation"
+  },
+  {
+    "id": 40,
+    "year": 2024,
+    "emissions": 4.4,
+    "emission_type": "CO2",
+    "country": "Canada",
+    "activity": "Mining operations"
+  },
+  {
+    "id": 41,
+    "year": 2025,
+    "emissions": 4.7,
+    "emission_type": "CO2",
+    "country": "Canada",
+    "activity": "Oil sands extraction"
+  },
+  {
+    "id": 42,
+    "year": 2024,
+    "emissions": 6,
+    "emission_type": "CO2",
+    "country": "Brazil",
+    "activity": "Agricultural machinery"
+  },
+  {
+    "id": 43,
+    "year": 2025,
+    "emissions": 5,
+    "emission_type": "CO2",
+    "country": "Brazil",
+    "activity": "Biofuel production"
+  },
+  {
+    "id": 44,
+    "year": 2024,
+    "emissions": 5.3,
+    "emission_type": "CO2",
+    "country": "Australia",
+    "activity": "Mining and extraction"
+  },
+  {
+    "id": 45,
+    "year": 2025,
+    "emissions": 5.6,
+    "emission_type": "CO2",
+    "country": "Australia",
+    "activity": "Industrial manufacturing"
+  },
+  {
+    "id": 46,
+    "year": 2024,
+    "emissions": 4.2,
+    "emission_type": "CO2",
+    "country": "Japan",
+    "activity": "Electronics production"
+  },
+  {
+    "id": 47,
+    "year": 2025,
+    "emissions": 4.4,
+    "emission_type": "CO2",
+    "country": "Japan",
+    "activity": "Automated manufacturing"
+  },
+  {
+    "id": 48,
+    "year": 2024,
+    "emissions": 6.7,
+    "emission_type": "CO2",
+    "country": "India",
+    "activity": "Coal-fired power plants"
+  },
+  {
+    "id": 49,
+    "year": 2025,
+    "emissions": 7.0,
+    "emission_type": "CO2",
+    "country": "India",
+    "activity": "Industrial expansion"
   }
 ]
