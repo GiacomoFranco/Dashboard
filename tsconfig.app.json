@@ -5,16 +5,7 @@
   "compilerOptions": {
     "outDir": "./out-tsc/app",
     "types": [],
-    "baseUrl": "src",
-    "paths": {
-      "@utilities/*": ["app/core/utilities/*"],
-      "@constants/*": ["app/core/constants/*"],
-      "@models/*": ["app/core/models/*"],
-      "@components/*": ["app/components/*"],
-      "@services/*": ["app/services/*"],
-      "@views/*": ["app/views/*"]
-    }
   },
-  "include": ["src/**/*.ts"],
+  "include": ["src/**/*.ts",  "src/**/*.json"],
   "exclude": ["src/**/*.spec.ts"]
 }
