@@ -1,59 +1,53 @@
-# Dashboard
+# Dashboard – Anthesis Technical Test
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.2.
+This project is the solution to the Anthesis technical assessment, built using Angular 20.
+It consumes a local mock dataset: gas-emissions.mock.json, which provides emission records for visualization, filtering, and comparison.
 
-## Development server
+The application includes dynamic filtering options, a tabular emissions list, and visual charts powered by Chart.js.
 
-To start a local development server, run:
+The project is deployed on Netlify for easy access and demonstration, [here is the deployed project](https://dashboardanthesis.netlify.app/).
 
+## 🧪 Testing
+
+Unit tests were implemented using Vitest together with Angular’s zoneless testing utilities.
+
+Main test coverage is located in:
+
+
+- filtered-records.spec.ts / the core testing file, covering the filtering logic and service behavior
+
+- app.spec.ts  basic /  application initialization tests
+
+<br>
+
+Install dependencies
+```bash
+npm i
+```
+
+
+Start the development server
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+The app will be available at:
 
-## Code scaffolding
+http://localhost:4200/
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
+Run tests
 ```bash
 ng test
 ```
 
-## Running end-to-end tests
+## 📦 Technologies Used
 
-For end-to-end (e2e) testing, run:
+- Angular 20 (standalone components + zoneless change detection)
 
-```bash
-ng e2e
-```
+Vitest (unit testing)
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+Chart.js (data visualization)
 
-## Additional Resources
+TypeScript
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+SCSS
